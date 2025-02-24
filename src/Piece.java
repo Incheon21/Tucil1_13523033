@@ -42,15 +42,4 @@ public class Piece {
     }
     return orientations;
   }
-
-  public void print() {
-    System.out.println("Size: " + height + "x" + width);
-    for (int i = 0; i < height; i++) {
-      System.out.print("  ");
-      for (int j = 0; j < width; j++) {
-        System.out.print(shape[i][j] + " ");
-      }
-      System.out.println();
-    }
-  }
 }
