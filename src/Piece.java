@@ -53,25 +53,4 @@ public class Piece {
       System.out.println();
     }
   }
-
-  // public static void main(String[] args) {
-  // char[][] piece = {
-  // {'A', 'E'},
-  // {'B', 'C'},
-  // {'D', '.'},
-  // };
-
-  // Piece p = new Piece(piece);
-  // System.out.println("Original piece:");
-  // p.print();
-
-  // System.out.println("\nAll possible orientations:");
-  // List<Piece> orientations = p.getAllOrientations();
-  // for (int i = 0; i < orientations.size(); i++) {
-  // System.out.println("\nOrientation " + (i + 1) + ":");
-  // orientations.get(i).print();
-  // }
-
-  // System.out.println("\nTotal orientations: " + orientations.size());
-  // }
 }

@@ -46,14 +46,9 @@ public class Solver {
         for (Piece p : piece.getAllOrientations()) {
           totalCaseChecked++;
           if (board.placePiece(p, x, y)) {
-            // System.out.println("Case #" + totalCaseChecked + ":");
-            // board.printBoard();
             if (solve(index + 1))
               return true;
-            // System.out.println("\nBacktracking: removing piece " + piece.shape[0][0] + "
-            // from (" + x + "," + y + ")");
             board.removePiece(p, x, y);
-            // board.printBoard();
           }
         }
       }
